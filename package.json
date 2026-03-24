@@ -2,13 +2,13 @@
   "name": "nextjs-shadcn",
   "version": "0.1.0",
   "private": true,
- "scripts": {
-  "dev": "next dev -H 0.0.0.0 --turbopack",
-  "build": "next build",
-  "start": "next start",
-  "lint": "bunx tsc --noEmit && next lint",
-  "format": "bunx biome format --write"
-}
+  "scripts": {
+   "dev": "next dev -H 0.0.0.0 --turbopack",
+   "build": "next build",
+   "start": "next start",
+   "lint": "bunx tsc --noEmit && next lint",
+   "format": "bunx biome format --write"
+ }
   "dependencies": {
     "@radix-ui/react-scroll-area": "^1.2.10",
     "@radix-ui/react-separator": "^1.1.8",

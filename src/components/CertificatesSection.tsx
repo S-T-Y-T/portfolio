@@ -33,6 +33,13 @@ const certificates: Certificate[] = [
     year: 2026,
     credentialId: "CKA-2026-XXXX",
   },
+  {
+    id: "4",
+    name: "Five Million AI Leaders",
+    issuer: "Ministry of DIgital Technologies of Rupublic of Uzbekistan/Dubai Future Foundation/United Arab Emirates Ministry of Cabinet Affairs",
+    year: 2026,
+    credentialId: "CKA-2026-XXXX",
+  },
 ];
 
 export function CertificatesSection() {

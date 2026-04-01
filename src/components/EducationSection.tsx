@@ -29,7 +29,7 @@ const education: Education[] = [
     field: "Digital Economics",
     period: "2023 — 2027",
     location: "Fergana, Uzbekistan",
-    honors: "Right now no",
+    honors: "Right now",
   },
 ];
 

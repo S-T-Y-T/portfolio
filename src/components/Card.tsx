@@ -61,7 +61,6 @@ const Card = () => {
               MDowMIXeN6gAAAAASUVORK5CYII=" />
             </svg>
             <p className="number">9860 0101 3292 9257</p>
-            <p className="date_8264">0 1 / 2 9</p>
             <p className="name">SEITALI MURATOV</p>
           </div>
           <div className="flip-card-back">

@@ -195,6 +195,13 @@ const competitions: Competition[] = [
     achievement: "Participant",
     category: "Hackaton",
   },
+  {
+    id: "27",
+    name: "HealthTech Hakaton",
+    year: 2026,
+    achievement: "Participant",
+    category: "Hackaton",
+  },  
 ];
 
 export function CompetitionsSection() {

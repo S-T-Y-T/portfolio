@@ -136,7 +136,7 @@ const competitions: Competition[] = [
     id: "18",
     name: "University Cup Dron Racing",
     year: 2026,
-    achievement: "Participant",
+    achievement: "3rd plase",
     category: "Dron Racing",
   },
   {
@@ -150,14 +150,14 @@ const competitions: Competition[] = [
     id: "20",
     name: "University Cup Hackaton",
     year: 2026,
-    achievement: "Participant",
+    achievement: "1st place",
     category: "Hackaton",
   },
   {
     id: "21",
     name: "University Cup The best idea",
     year: 2026,
-    achievement: "Participant",
+    achievement: "1st place",
     category: "Ideaton",
   },
   {
@@ -202,6 +202,20 @@ const competitions: Competition[] = [
     achievement: "Participant",
     category: "Hackaton",
   },  
+  {
+    id: "28",
+    name: "The regional stage of the Mirzo Ulugbek Successors' Selection",
+    year: 2026,
+    achievement: "Participant",
+    category: "Science and Innovation",
+  },
+  {
+    id: "29",
+    name: "University Cup Cybersecurity CTF",
+    year: 2026,
+    achievement: "Organizer",
+    category: "CTF",
+  },
 ];
 
 export function CompetitionsSection() {

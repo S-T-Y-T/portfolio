@@ -93,15 +93,6 @@ const publications: Publication[] = [
     authors: "S.Muratov, M.Parpiyeva",
     doi: "https://drive.google.com/file/d/1f95X45hwsWJce-VmthVoLsT_6pUX8dKO/view?usp=sharing",
   },
-    {
-    id: "10",
-    title:
-      "Higher Education in the Digital Economy",
-    journal: "International Scientific and Technical Conference on ‘The Role of Modern Information Technologies in the Development of Science and Technology’",
-    year: 2023,
-    authors: "S.Muratov, M.Parpiyeva",
-    doi: "https://drive.google.com/file/d/1f95X45hwsWJce-VmthVoLsT_6pUX8dKO/view?usp=sharing",
-  }
 ];
 
 export function PublicationsSection() {

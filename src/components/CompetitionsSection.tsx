@@ -216,6 +216,13 @@ const competitions: Competition[] = [
     achievement: "Organizer",
     category: "CTF",
   },
+  {
+    id: "30",
+    name: "Development Dedication Lapel Badge",
+    year: 2026,
+    achievement: "Award",
+    category: "Award",
+  },
 ];
 
 export function CompetitionsSection() {

@@ -122,16 +122,6 @@ export function ContactSection() {
             </div>
           </div>
         </div>
-        </div>
-
-        {/* The Card Widget */}
-        <div
-          className={`transition-all duration-700 delay-400 ${
-            isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
-          }`}
-        >
-          <Card />
-        </div>
       </div>
     </section>
   );

@@ -1,0 +1,86 @@
+.transition-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: #000;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* Плавный возврат */
+}
+
+/* Когда срабатывает скролл, оверлей начинает исчезать */
+.transition-overlay.exit-active {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.transition-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.bar {
+  width: 300px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.ball {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #37FF8B;
+  box-shadow: 0 0 15px #37FF8B;
+  animation: moveTwice 1.2s ease-in-out forwards;
+}
+
+@keyframes moveTwice {
+  0% { left: 0%; }
+  100% { left: 100%; }
+}
+
+.button-loader {
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  font-family: serif;
+  font-style: italic;
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.hover-text {
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  color: #37FF8B;
+  -webkit-text-stroke: 1px #37FF8B;
+  border-right: 4px solid #37FF8B;
+  overflow: hidden;
+  animation: fillOnce 1.2s ease-in-out forwards;
+}
+
+@keyframes fillOnce {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.nav-link {
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}

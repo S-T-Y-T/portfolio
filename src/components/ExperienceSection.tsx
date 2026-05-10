@@ -42,7 +42,7 @@ const experiences: Experience[] = [
     id: "3",
     company: "Plus Academy Inc.",
     role: "Manager",
-    period: "2018 — 2023",
+    period: "2020 — 2023",
     description:
       "Manage Plus Academy's branch",
     highlights: [

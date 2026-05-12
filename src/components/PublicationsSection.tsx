@@ -93,6 +93,15 @@ const publications: Publication[] = [
     authors: "S.Muratov, M.Parpiyeva",
     doi: "https://drive.google.com/file/d/1f95X45hwsWJce-VmthVoLsT_6pUX8dKO/view?usp=sharing",
   },
+  {
+    id: "10",
+    title:
+      "Modern Approaches, Challenges, and Solutions in Training Specialists Based on Artificial Intelligence Technologies",
+    journal: "Republic Scientific and Technical Conference on ‘The role of artificial intellegence technologies in ensuring financial stability, developing digital accounting systems, and enchancing management efficiency in the economy of Uzbekistan’",
+    year: 2026,
+    authors: "I.Xamraqulov, S.Muratov, J.Naymanbayev",
+    doi: "https://drive.google.com/file/d/1Zhib766sQ31Za_5L4VCA8gfecQH5u62H/view?usp=sharing",
+  },
 ];
 
 export function PublicationsSection() {

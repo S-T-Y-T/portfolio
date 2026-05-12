@@ -136,7 +136,7 @@ const competitions: Competition[] = [
     id: "18",
     name: "University Cup Dron Racing",
     year: 2026,
-    achievement: "3rd plase",
+    achievement: "3rd place",
     category: "Dron Racing",
   },
   {
@@ -176,7 +176,7 @@ const competitions: Competition[] = [
   },
   {
     id: "24",
-    name: "Engeneers of the future",
+    name: "'Engeneers of the Future' International festival",
     year: 2026,
     achievement: "Participant",
     category: "Engeneering",

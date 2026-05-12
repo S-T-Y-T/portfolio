@@ -40,6 +40,48 @@ const certificates: Certificate[] = [
     year: 2026,
     credentialId: "CKA-2026-XXXX",
   },
+  {
+    id: "5",
+    name: "Professional Networking for Career Growth",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "e8780088-70a3-4921-a869-051de5224562",
+  },
+  {
+    id: "6",
+    name: "Critical Thinking in theAI Era",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "3fae7e7b-821a-407c-bf1a-f4643c5dbb68",
+  },
+  {
+    id: "7",
+    name: "Business Email",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "22c75fa3-0b03-4c0d-b4a5-eaa1cfcb4f0a",
+  },
+  {
+    id: "8",
+    name: "AI for Business Professionals",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "e4f19af1-c249-413d-9ad3-4eb4c6852bc7",
+  },
+  {
+    id: "9",
+    name: "Customer Experience (CX) for Business Success",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "c0c43e24-b8c6-448a-8207-7363cc3a3464",
+  },
+  {
+    id: "10",
+    name: "Business Communications",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "21dd1f84-c301-423a-935d-167fd8b1793d",
+  },
 ];
 
 export function CertificatesSection() {

@@ -47,7 +47,6 @@ const experiences: Experience[] = [
       "Manage Plus Academy's branch",
     highlights: [
       "Scaled the branch's student capacity by 70% through optimized scheduling and improved enrollment strategies.",
-      "Led and mentored a diverse team of 6 teachers and administrators, fostering a collaborative work environment.",
       "Initiated local marketing campaigns that increased brand awareness and branch foot traffic by 40%.",
     ],
   },

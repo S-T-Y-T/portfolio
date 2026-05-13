@@ -82,6 +82,41 @@ const certificates: Certificate[] = [
     year: 2026,
     credentialId: "21dd1f84-c301-423a-935d-167fd8b1793d",
   },
+  {
+    id: "11",
+    name: "Effective Presentations",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "fd992abc-7476-49e8-b67c-9c9a44e16a58",
+  },
+  {
+    id: "12",
+    name: "AI for Beginners",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "4deb9f69-0ff5-4229-bcd8-088fc441396d",
+  },
+  {
+    id: "13",
+    name: "Presenting Data",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "e4dbbe5f-9a79-4dbb-a20c-db7f6c166e7e",
+  },
+  {
+    id: "14",
+    name: "Agile Project Management",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "4d5ac366-a249-41f8-aeda-c216546f5f8d",
+  },
+  {
+    id: "15",
+    name: "Effective Leadership",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "2286e5fd-a2aa-4a59-b980-e92b0d7224d1",
+  },
 ];
 
 export function CertificatesSection() {

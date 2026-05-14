@@ -117,6 +117,20 @@ const certificates: Certificate[] = [
     year: 2026,
     credentialId: "2286e5fd-a2aa-4a59-b980-e92b0d7224d1",
   },
+  {
+    id: "16",
+    name: "Data Science & Analytics",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "1adb9ed8-38cc-4d36-9a47-d366d782883a",
+  },
+  {
+    id: "17",
+    name: "Introduction to Digital Business Skills",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "cf2a7c00-e146-4441-8789-00a245e3868f",
+  },
 ];
 
 export function CertificatesSection() {

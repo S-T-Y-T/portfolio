@@ -131,6 +131,20 @@ const certificates: Certificate[] = [
     year: 2026,
     credentialId: "cf2a7c00-e146-4441-8789-00a245e3868f",
   },
+  {
+    id: "18",
+    name: "Success Mindset",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "d6a3099d-7ae2-4615-91ad-57920a0df808",
+  },
+  {
+    id: "19",
+    name: "Circular Economy",
+    issuer: "HP LIFE, HP Foundation",
+    year: 2026,
+    credentialId: "6410582d-a2de-4de4-bbe9-cc206aae2aec",
+  },
 ];
 
 export function CertificatesSection() {

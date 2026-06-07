@@ -27,19 +27,32 @@ const experiences: Experience[] = [
   },
   {
     id: "2",
-    company: "Bo'ston community",
-    role: "Public Person",
-    period: "2023 — 2025",
+    company: "SwiftSoft",
+    role: "Software engeneer",
+    period: "2024 — 2025",
     description:
-      "Helped to Bo'ston's workers with communication to people of community",
+      "Worked as a Software Engineer at SwiftSoft on the Anixart project, focusing on the feed recommendation system.",
     highlights: [
-      "Acted as a key mediator between municipal workers and residents, reducing communication friction by 30%.",
-      "Developed and implemented a streamlined feedback system to collect and address resident concerns more efficiently.",
-      "Boosted community trust in local workers through consistent, empathetic, and professional representation.",
+      "Developed and iterated on the feed recommendation system from beta 9.1 through beta 9.8, contributing across 7 consecutive release cycles.",
+      "Proposed and implemented multiple product ideas for the feed section, directly shaping its functionality and user experience.",
+      "Played a key role in the early-stage growth of the platform, joining at beta and driving continuous improvements through each release.",
     ],
   },
   {
     id: "3",
+    company: "Yandex",
+    role: "Software Engineer at Yandex (YandexGPT team)",
+    period: "2023 — 2024",
+    description:
+      "Contributed to the development and quality assurance of YandexGPT as part of the team.",
+    highlights: [
+      "Proposed and implemented an optimized testing methodology for evaluating YandexGPT response accuracy, which became the foundation for a dedicated QA department.",
+      "Initiated the formation of a response quality verification unit and transitioned to lead its operations after 7 months on the core team.",
+      "Designed evaluation frameworks to systematically assess and improve the correctness and reliability of LLM outputs.",
+    ],
+  },
+  {
+    id: "4",
     company: "Plus Academy Inc.",
     role: "Manager",
     period: "2020 — 2023",
